@@ -1,4 +1,4 @@
-# VBC-Calculator
+# VBCSP Calculator
 
 A calculator for Virtual Business Challenge Sports and Entertainment.
 
