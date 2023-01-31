@@ -1,0 +1,13 @@
+{
+  "name": "vbc-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node run ."
+  },
+  "author": "TheChoco",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "type": "module"
+}
