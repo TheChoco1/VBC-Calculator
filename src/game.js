@@ -76,7 +76,7 @@ const calcStaff = (att) => {
         '; Ushers: ' + ushers + 
         '; Security: ' + sec + 
         '; Ticket Takers: ' + tt +
-        '; Parking Cashiers:' + pc +
+        '; Parking Cashiers: ' + pc +
         '; Parking Assistants: ' + pa
     );
 }
@@ -85,6 +85,9 @@ const mediaCosts = (SM, np, radio, tv) => SM + np + radio + tv;
 
 const playerSalary = (fullSalary) => fullSalary/16;
 
-const totalGameProfit = () => maxConcessionsProfit(calcAttendance(5874), 7) + maxTicketProfit(40.99, 50.99, 60.99, 65.99, 75.99, 84.99) - mediaCosts(80000, 81000) - playerSalary(2800088) - 400000 + 250000 - 40000;
+/*const totalGameProfit = () => maxConcessionsProfit(calcAttendance(5874), 7) + maxTicketProfit(40.99, 50.99, 60.99, 65.99, 75.99, 84.99) - mediaCosts(80000, 81000) - playerSalary(2800088) - 400000 + 250000 - 40000;
+To change this to make dynamic, most likely will remove and add
+to test cases in main.js since it's useless anyways
+*/
 
-export { calcAttendance, maxTicketProfit, maxConcessionsProfit, calcStaff, mediaCosts, playerSalary, totalGameProfit };
+export { calcAttendance, maxTicketProfit, maxConcessionsProfit, calcStaff, mediaCosts, playerSalary };
